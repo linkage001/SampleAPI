@@ -3,7 +3,7 @@ import secrets
 
 # TODO: Protect from SQL injection
 class Database:
-    db = 'C:\\Users\\William\\data.db'
+    db = "data.db"
 
     def get_user_data(self, username, token=''):
         con = sql.connect(self.db)
